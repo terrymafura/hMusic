@@ -1,1 +1,15 @@
+@charset 'UTF-8';
 
+body
+{
+    background: #f2f5f3;
+}
+
+#header {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5em 0 2em 0;
+    margin: 0 auto;
+}
