@@ -1,4 +1,3 @@
+## hMusic -
 
-## hMusic - 
-
-A music sharing, ratings and charts application
+A music sharing, ratings and charts application.
