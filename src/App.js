@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import AlbumList from "../src/components/AlbumList/AlbumList";
+import SearchBar from "../src/components/SearchBar/SearchBar";
 import "./App.css";
 
 const album = {
-  albumArt: "./while_you_were_sleeping.jpg",
+  albumArt: "https://image.ibb.co/ntw9ye/cover.jpg",
+  // albumArt: "./while_you_were_sleeping.jpg",
   name: "While You Were Sleeping",
   artist: "Art Department",
   year: 2015,
@@ -20,6 +22,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>hmusic</h1>
+        <SearchBar />
         <AlbumList albums={albums} />
       </div>
     );

@@ -7,14 +7,14 @@ class Album extends React.Component {
     return (
       <div className="Album">
         <div className="image-container">
-          <img src="./while_you_were_sleeping.jpg" alt="" />
+          <img src="https://image.ibb.co/ntw9ye/cover.jpg" alt="" />
         </div>
         <h2>{this.props.album.name}</h2>
         <div className="Album-information">
           <div className="Album-details">
             <p>Artist: {this.props.album.artist}</p>
             <p>
-              {this.props.album.genre} {this.props.album.year}
+              {this.props.album.genre} . {this.props.album.year}
             </p>
             <p>{this.props.album.country}</p>
           </div>
