@@ -1,17 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import "./Album.css";
-
-const album = {
-  albumArt: "./while_you_were_sleeping.jpg",
-  name: "While You Were Sleeping",
-  artist: "Art Department",
-  year: 2015,
-  genre: "HipHop",
-  country: "Zimbabwe",
-  rating: 5,
-  plays: 69
-};
 
 class Album extends React.Component {
   render() {
@@ -20,18 +9,18 @@ class Album extends React.Component {
         <div className="image-container">
           <img src="./while_you_were_sleeping.jpg" alt="" />
         </div>
-        <h2>{album.name}</h2>
+        <h2>{this.props.album.name}</h2>
         <div className="Album-information">
           <div className="Album-details">
-            <p>Artist: {album.artist}</p>
+            <p>Artist: {this.props.album.artist}</p>
             <p>
-              {album.genre} {album.year}
+              {this.props.album.genre} {this.props.album.year}
             </p>
-            <p>{album.country}</p>
+            <p>{this.props.album.country}</p>
           </div>
           <div className="Album-ratings">
-            <h3 className="rating">{album.rating} stars</h3>
-            <p>{album.plays} plays</p>
+            <h3 className="rating">{this.props.album.rating} stars</h3>
+            <p>{this.props.album.plays} plays</p>
           </div>
         </div>
       </div>

@@ -6,12 +6,9 @@ class AlbumList extends React.Component {
   render() {
     return (
       <div className="AlbumList">
-        <Album />
-        <Album />
-        <Album />
-        <Album />
-        <Album />
-        <Album />
+        {this.props.albums.map(album => {
+          return <Album album={album} />;
+        })}
       </div>
     );
   }
