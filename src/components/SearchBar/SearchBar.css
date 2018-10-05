@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('https://image.ibb.co/iHGL4K/adrian_korte_76051_unsplash.jpg');
+  background-image: url('https://image.ibb.co/c0aGBz/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 25rem;
@@ -77,7 +77,7 @@
 
 @media only screen and (max-width: 560px) {
   .SearchBar {
-    background-image: url('https://image.ibb.co/iHGL4K/adrian_korte_76051_unsplash.jpg');
+    background-image: url('https://image.ibb.co/c0aGBz/background.jpg');
   }
 
   .SearchBar-sort-options ul {
