@@ -1,0 +1,84 @@
+{
+  "albums": [
+    {
+      "albumArt": "https://image.ibb.co/ntw9ye/cover.jpg",
+      "name": "While You Were Sleeping",
+      "artist": "Art Department",
+      "year": 2015,
+      "genre": "HipHop",
+      "country": "Zimbabwe",
+      "rating": 5,
+      "plays": 69
+    },
+    {
+      "albumArt": "https://image.ibb.co/nmRh3e/kingsvilla.jpg",
+      "name": "Kingsvilla",
+      "artist": "ASAPH",
+      "year": 2015,
+      "genre": "HipHop",
+      "country": "Zimbabwe",
+      "rating": 5,
+      "plays": 54
+    },
+    {
+      "albumArt": "https://image.ibb.co/mkxNKK/tfaf.png",
+      "name": "The Feeling Aint Fair",
+      "artist": "Few Kings",
+      "year": 2013,
+      "genre": "HipHop",
+      "country": "Zimbabwe",
+      "rating": 4.2,
+      "plays": 30
+    },
+    {
+      "albumArt": "https://image.ibb.co/jSxpzK/gwandarulez.jpg",
+      "name": "No Gwanda Rulez",
+      "artist": "Tulkmunny & Take Fizzo",
+      "year": 2017,
+      "genre": "HipHop",
+      "country": "Zimbabwe",
+      "rating": 4.8,
+      "plays": 112
+    },
+    {
+      "albumArt": "https://image.ibb.co/kg4V6z/titans.jpg",
+      "name": "Titans",
+      "artist": "Dutch & Simba Tagz",
+      "year": 2014,
+      "genre": "HipHop",
+      "country": "Zimbabwe",
+      "rating": 3.5,
+      "plays": 29
+    },
+    {
+      "albumArt": "https://image.ibb.co/msknmz/livelovedance.jpg",
+      "name": "Live Love Dance",
+      "artist": "Dutch",
+      "year": 2013,
+      "genre": "HipHop/Dance",
+      "country": "Zimbabwe",
+      "rating": 3.4,
+      "plays": 56
+    },
+    {
+      "albumArt": "https://image.ibb.co/cYLWwz/tellyourfriends.png",
+      "name": "Tell Your Friends Part III",
+      "artist": "Charlie Zimbo",
+      "year": 2016,
+      "genre": "HipHop",
+      "country": "Zimbabwe",
+      "rating": 4.4,
+      "plays": 51
+    },
+    {
+      "albumArt": "https://image.ibb.co/ntw9ye/cover.jpg",
+      "name": "Kingsvilla2",
+      "artist": "ASAPH",
+      "year": 2016,
+      "genre": "HipHop",
+      "country": "Zimbabwe",
+      "rating": 5,
+      "plays": 120
+    }
+  ]
+}

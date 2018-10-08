@@ -5,7 +5,6 @@ import "./App.css";
 
 const album = {
   albumArt: "https://image.ibb.co/ntw9ye/cover.jpg",
-  // albumArt: "./while_you_were_sleeping.jpg",
   name: "While You Were Sleeping",
   artist: "Art Department",
   year: 2015,
