@@ -17,6 +17,10 @@ const album = {
 const albums = [album, album, album, album, album, album];
 
 class App extends Component {
+  searchAlbums(term, sortBy) {
+    console.log("Searching Albums with " + term + " , " + " , " + sortBy);
+  }
+
   render() {
     return (
       <div className="App">

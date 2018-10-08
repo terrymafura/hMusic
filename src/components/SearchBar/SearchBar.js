@@ -15,6 +15,7 @@ class SearchBar extends React.Component {
       sortBy: "best_match"
     };
     this.handleTermChange = this.handleTermChange.bind(this);
+    this.handleSearch = this.handleSearch.bind(this);
   }
 
   renderSortByOptions() {
@@ -50,6 +51,11 @@ class SearchBar extends React.Component {
     this.setState({ term: event.target.value });
   }
 
+  handleSearch(event) {
+    this.props.searchAlbums(this.state.term, this.state.sortBy);
+    event.preventDefault();
+  }
+
   render() {
     return (
       <div className="SearchBar">
@@ -60,7 +66,7 @@ class SearchBar extends React.Component {
           <input placeholder="Search Music" onChange={this.handleTermChange} />
         </div>
         <div className="SearchBar-submit">
-          <a>Search</a>
+          <a onClick={this.handleSearch}>Search</a>
         </div>
       </div>
     );
