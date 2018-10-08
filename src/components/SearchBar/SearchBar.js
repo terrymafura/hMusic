@@ -52,7 +52,7 @@ class SearchBar extends React.Component {
   }
 
   handleSearch(event) {
-    this.props.searchAlbums(this.state.term, this.state.sortBy);
+    this.props.searchAlbum(this.state.term, this.state.sortBy);
     event.preventDefault();
   }
 
